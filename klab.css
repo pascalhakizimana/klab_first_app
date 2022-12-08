@@ -1,0 +1,87 @@
+body{
+    background-color: #f4e1e1;
+}
+#first_page{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.first_span{
+   color: hwb(165 7% 59%);
+   font-weight: 700;
+}
+.second_span{
+    /* position: absolute; */
+width: 15x;
+height: 20px;
+
+font-family: "Jost",sans-serif;
+
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 5px;
+font-size: 50px;
+
+color: #29A587;
+-webkit-text-stroke: 1px #000000;
+text-shadow: 2px 2px rgb(97, 82, 82);
+letter-spacing: .05em;
+line-height: 1.2;
+text-transform: uppercase;
+
+
+/* border: 23.8574px solid #000000; */
+
+    
+   
+}
+
+.third_span{
+    /* position: absolute; */
+width: 15px;
+height: 20px;
+
+font-family: "Jost",sans-serif;
+
+font-style: normal;
+font-weight: 700;
+
+font-size: 50px;
+line-height: 5px;
+
+color: #F9F3F5;
+-webkit-text-stroke: 1px #000000;
+text-shadow: 2px 2px rgb(97, 82, 82);
+letter-spacing: .05em;
+line-height: 1.2;
+text-transform: uppercase;     
+
+/* border: 26.8396px solid #000000; */
+}
+
+#full_names{
+    display: flex;
+    flex-direction: crow;
+}
+.fourth_span{
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 15px;
+    font-family: "Jost",sans-serif;
+    
+}
+
+.fith_span{
+    font-family: Caveat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-left: 10px;
+    color: #000;
+}
+.img1{
+    border-radius: 100px;
+}
