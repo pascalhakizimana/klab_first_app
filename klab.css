@@ -1,5 +1,5 @@
 body{
-    background-color: #f4e1e1;
+    background-color: #f7f1f1;
 }
 #first_page{
     margin-left: 150px;
@@ -83,5 +83,51 @@ text-transform: uppercase;
     color: #000;
 }
 .img1{
-    border-radius: 100px;
+    border-radius: 250px;
+    height: 500px;
+    width: 500px;
+}
+.first_btm{
+    border-radius: 50px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+
+.first_btm:hover{
+    background-color: #29A587 ;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.content{
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+.image{
+    
+    padding-left: 100px;
+}
+#palagraphy_1{
+    color: rgb(78, 74, 74);
+
+}
+
+
+
+/* about's CSS */
+
+#container_about{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+#head_about{
+    color: aqua;
+}
+#content_about{
+    background-color: #29A587;
 }

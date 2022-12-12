@@ -1,0 +1,113 @@
+/* about's CSS */
+body{
+    background-color: #f7f1f1;
+}
+
+#container_about{
+    display: grid;
+    grid-template-rows: auto auto ;
+
+}
+#head_about{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: jost;
+}
+#content_about{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+#first_d{
+    
+    
+    width: 300px;
+    height: 355px;
+    left: 391px;
+    
+    padding: 20px;
+    
+    background: #ffffff;
+    border-radius: 30px;
+    margin-top: 50px;
+    z-index: 2;
+}
+#second_d{
+    width: 300px;
+    height: 355px;
+    left: 391px;
+    padding: 20px;
+   
+    
+    background: #ffffff;
+    border-radius: 30px;
+    margin-top: 50px;
+    z-index: 2;
+}
+#third_d{
+    width: 300px;
+    height: 355px;
+    left: 391px;
+    padding: 20px;
+    
+    
+    background: #ffffff;
+    border-radius: 30px;
+    margin-top: 50px;
+    z-index: 2;
+
+}
+
+.my_sevices{
+    
+    font-family: Caveat;
+    font-size: large;
+}
+
+
+.s_span_about{
+    color: #29A587;
+    font-family: jost;
+}
+.fouter_about{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: absolute;
+    
+font-family: Gluten;
+font-style: normal;
+font-weight: 400;
+font-size: 300px;
+line-height: 21px;
+color: #f1eded;
+text-align: center;
+
+/* margin-bottom: 10rem; */
+left: 1px;
+top: 300px;
+
+z-index: 1;
+}
+.price_btn{
+    
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.fa-sharp{
+    color: #29A587;
+    cursor: pointer;
+}
+.palagraph_about{
+    color: rgb(78, 77, 77);
+}

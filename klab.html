@@ -7,29 +7,72 @@
     <title>WEB DEVELOPER</title>
     <link rel="stylesheet" href="klab.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="menu.css">
+    <script type="text/javascript">
+        function first_script(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script>
 <body>
-    <div id="first_page">
-        <div id="tittle"><h5> <span class="first_span">HALLO,</span> MY NAME IS  </h5></div>
-    <div id="full_names"> <h1 class="full_name">  <span class="second_span">Pascal</span> <span class="third_span">Hakizimana</span> </h1> </div>
+    <div id="sidebar" onclick="first_script()">
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>SERVICES</li>
+            <li>SKILLS</li>
+            <li>WORKS</li>
+            <li>RESUME</li>
+            <li>TESTIMONIALS</li>
+            <li>PRICING</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+            <li>PAGES</li>
+            
+            
+        </ul>
+
+
+    </div>
+     
+
+
+
+
+    
+    <div id="container">
+        <div class="content">
+            <div id="tittle"><h5> <span class="first_span">HALLO,</span> MY NAME IS  </h5></div>
+            <div id="full_names"> <h1 class="full_name">  <span class="second_span">Pascal</span> <span class="third_span">Hakizimana</span> </h1> </div>
     <div id="develloper"> <h4><span class="fourth_span">I Am</span> <span class="fith_span">Web Developer</span> </h4></div>
-    <div id="palagraphy"> <p>From Rwanda, Kigali. <br> I have rich experience in web design, also I am good at wordpress. 
+    <div id="palagraphy_1"> <p>From Rwanda, Kigali. <br> I have rich experience in web design, also I am good at wordpress. 
         <br> I love to talk with you about our unique.
         </p></div>
-        <div id="social_medias"><ol>
+        <div id="social_medias">
+            <ol>
             <i class="fa fa-facebook-f" style="font-size:36px"></i>
+            
             <i class="fa fa-instagram" style="font-size:36px"></i>
             <i class="fa fa-twitter" style="font-size:36px"></i>
         </ol></div>
         <div id="download_button"> 
-            <button>Download CV</button>
-            <h1>Wy Skills</h1><hr>
+            
+            <a href="file:///C:/Users/m$n%20Technology%20G%20LTD/Downloads/HAKIZIMANA%20Pascal%20CV.docx.pdf"><button class="first_btm" >Download CV  </button></a>
+            <h1>My Skills</h1><hr>
         </div>
-        <div id="first_image"> <img class="img1" src="pascal.jpg" alt="Trulli" width="200" height="200"></div>
+            
+
+        </div>
 
 
+
+
+        <div class="image"> 
+            <div id="first_image"> <img class="img1" src="pascal.jpg" alt="Trulli" width="200" height="200"></div>    
+        </div>
     </div>
-    
-    
 </body>
 </html>
